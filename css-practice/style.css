@@ -1,0 +1,36 @@
+/* Exercise 2 */
+.odd {
+    background-color: rgb(255, 163, 163);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjusted-font-size {
+    font-size: 24px;
+}
+
+#element-2 {
+    color: rgb(39, 28, 199);
+    font-size: 36px;
+}
+
+#element-4 {
+    background-color: rgb(139, 252, 154);
+    font-weight: 700;
+}
+
+
+/* Exercise 3 */
+.btn-1,
+.btn-2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.btn-1 {
+    background-color: #000000;
+    color: rgb(238, 238, 238);
+}
+
+.btn-2 {
+    background-color: yellow;
+}
