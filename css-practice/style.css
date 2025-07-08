@@ -48,7 +48,7 @@
 }
 
 /* Exercise 5 */
-.container .text {
+.ex-5 .container .text {
     background-color: yellow;
     color: rgb(255, 0, 0);
     text-align: center;
@@ -60,3 +60,49 @@
     div .text 
     .container p
 */
+
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #fff8ec;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: #000;
+    width: auto;
+    margin: 0 10px;
+    font-size: 0.7em;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(255, 230, 86);
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.navbar a:hover {
+    background-color: rgb(255, 217, 0);
+    color: #000;
+}
+
+.introduction-section h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: lightsalmon;
+    width: 500px;
+    margin: auto;
+}
+
+.introduction-section {
+    width: 100%;
+    height: 1000px;
+    background-color: #fff5ba;
+}
