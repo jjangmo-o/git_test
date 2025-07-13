@@ -106,3 +106,19 @@
     height: 1000px;
     background-color: #fff5ba;
 }
+
+.try {
+    display:flex;
+}
+
+.try div {
+    flex-grow: 1;
+    border: 1px solid black;
+    transition: flex-grow 0.3s ease;
+    width: auto;
+    height: 50px;
+}
+
+.try div:hover {
+    flex-grow: 10;
+}
